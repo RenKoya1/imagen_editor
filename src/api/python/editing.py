@@ -18,7 +18,6 @@ import os
 
 load_dotenv()
 
-# 環境変数を取得
 project_id = os.getenv("PROJECT_ID")
 
 print(f"Vertex AI initialized with project {project_id}")
